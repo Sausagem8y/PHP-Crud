@@ -1,8 +1,14 @@
-import pyautogui
+import pyautogui, webbrowser
 
 width, height = pyautogui.size()
 
 def testTaker():
+    webbrowser.open('https://tooeletech.udemy.com/course/php-for-beginners-/learn/quiz/4404358#questions')
+    pyautogui.moveTo(10, 10, 3)
+    
+    pyautogui.click(1077, 707)
+    pyautogui.moveTo(319, 447, 1)
+    
     pyautogui.click(319, 447)
     pyautogui.moveTo(578, 409, 1)
     pyautogui.click(578, 409)
